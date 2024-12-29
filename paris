@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Французький каприз</title>
+    <style>
+        /* Загальні стилі */
+          body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #fdfdfd;
+        }
+        header {
+            background: #800020;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #fff;
+            font-size: 3em;
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+        section {
+            padding: 20px;
+            background: #fff;
+        }
+        p {
+            color: #333;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+        .map-container {
+            margin: 20px 0;
+            position: relative;
+            height: 400px;
+        }
+
+        /* Стилі для заголовків розділів */
+        .section-title {
+            background: #800020;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Стилі для елементів списку */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            color: #333;
+            font-family: 'Georgia', serif;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        li::before {
+            content: "\25B6"; /* Символ стрілки */
+            color: #800020;
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+footer {
+            background-color: #800020;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Французький каприз</h1>
+</header>
+
+<section id="content">
+    <p>Париж — це місто романтики, витонченості та неймовірної краси. Його вузькі вулички, затишні кафе та величні пам'ятки зачаровують кожного, хто сюди потрапляє.</p>
+    <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRpKbgRvjtgFy7QI9NlXhfZpx7n6xKgM4aMajpC4ukIgCP1fXWdZMHDg2yQG57-_RXbpq0IzD0Jobnlskio1G1Lf-qFENSGKEbsIF8mCQ" alt="Париж" width="600" height="300">
+    <p>Відвідувачі з усього світу приїжджають, щоб насолодитися неповторною атмосферою цього французького міста. Париж не лише столиця Франції, але й світова столиця моди, культури та гастрономії.</p>
+
+    <section>
+        <h2 class="section-title">1. Основні пам'ятки</h2>
+        <ul>
+            <li><span class="highlight">Ейфелева вежа</span> — від 18 до 28 €. Відвідувати вранці для уникнення черг.</li>
+            <li><span class="highlight">Собор Паризької Богоматері</span> — безкоштовно для зовнішнього огляду.</li>
+            <li><span class="highlight">Лувр</span> — 17 €. Бронюй квитки <a href="https://www.louvre.fr" target="_blank">онлайн</a>.</li>
+            <li><span class="highlight">Монмартр і Сакре-Кер</span> — безкоштовно. Найкраще місце для заходу сонця.</li>
+            <li><span class="highlight">Тріумфальна арка</span> — 13 €. Відвідуй під час сутінків для фото.</li>
+            <li><span class="highlight">Венсенський ліс</span> — безкоштовно. Прогулянки на природі у самому серці Парижа.</li>
+            <li><span class="highlight">Палац Версаль</span> — 20 €. Візит на цілий день.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="section-title">2. Панорамні види</h2>
+        <ul>
+            <li><span class="highlight">Galeries Lafayette</span> — безкоштовний оглядовий майданчик.</li>
+            <li><span class="highlight">Парк Бютт-Шомон</span> — найкращий вид на Монмартр.</li>
+            <li><span class="highlight">Башта Монпарнас</span> — 19 €. Ідеально для вечірнього огляду міста.</li>
+            <li><span class="highlight">Шанз-Елізе</span> — чудовий вид на місто та Тріумфальну арку.</li>
+            <li><span class="highlight">Нотр-Дам</span> — чудовий вид на місто з верхівки.</li>
+        </ul>
+        <img src="https://www.paris-tickets.com/wp-content/uploads/2023/04/montparnasse-deck6.jpg" alt="Башта Монпарнас"width="600" height="300">
+    </section>
+
+    <section>
+        <h2 class="section-title">3. Як пересуватися по Парижу</h2>
+        <p>Ось транспортні варіанти, які зроблять вашу подорож зручною:</p>
+        <ul>
+            <li><span class="highlight">Метро</span>: Найдешевший спосіб пересування. Один квиток — 1,90 €.</li>
+            <li><span class="highlight">Велосипеди Vélib'</span>: Оренда від 3 € на день.</li>
+            <li><span class="highlight">Автобуси Hop-On Hop-Off</span>: Чудовий спосіб оглянути місто. Ціна від 30 € за день.</li><li><span class="highlight">Трамваї</span>: Зручні для коротких поїздок по місту.</li>
+            <li><span class="highlight">Таксі та Uber</span>: Якщо хочете комфорт і швидкість, але це дорожче.</li>
+        </ul>
+        <p>Корисні додатки для навігації:</p>
+        <ul>
+            <li><a href="https://www.ratp.fr/en" target="_blank">RATP (для метро та автобусів)</a></li>
+            <li><a href="https://www.citymapper.com/" target="_blank">Citymapper</a> — найкращий додаток для планування маршрутів.</li>
+            <li><a href="https://velib-metropole.fr/" target="_blank">Vélib'</a> для оренди велосипедів.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="section-title">4. Лайфхаки для комфортної подорожі</h2>
+        <ul>
+            <li>Купуйте <span class="highlight">Paris Pass</span>, щоб заощадити на входах до музеїв та атракцій.</li>
+            <li>Відвідуйте популярні місця зранку, коли менше туристів.</li>
+            <li>Обов’язково беріть із собою багаторазову пляшку для води — фонтани знайдете по всьому місту.</li>
+            <li>Під час шопінгу на Шанз-Елізе перевіряйте розпродажі — у Франції вони двічі на рік.</li>
+            <li>Завантажте офіційний додаток <span class="highlight">Paris Aéroport</span> для зручного переміщення між аеропортом і містом.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="section-title">5. Безкоштовні місця</h2>
+        <ul>
+            <li>Прогулянка вздовж <span class="highlight">Сени</span>.</li>
+            <li>Сади <span class="highlight">Тюїльрі</span> і парк <span class="highlight">Бютт-Шомон</span>.</li>
+            <li>Тераса <span class="highlight">Galeries Lafayette</span>.</li>
+            <li>Музей Стендаля (безкоштовний для відвідувачів в перший неділю місяця).</li>
+            <li>Площадь Вогезів — одна з найкрасивіших площ в Парижі.</li>
+        </ul>
+        <img src="https://seineriver.cruises/wp-content/uploads/2024/08/95124600_l_normal_none-1-1.jpg" alt="Набережні Сени" width="600" height="300" >
+    </section>
+
+    <section>
+        <h2 class="section-title">6. Шопінг у Парижі</h2>
+        <p>Не можна приїхати в Париж і не піти на шопінг. Ось кращі місця:</p>
+        <ul>
+            <li><span class="highlight">Шанз-Елізе</span> — для розкішних покупок від світових брендів.</li>
+            <li><span class="highlight">Le Marais</span> — для модних бутиків і унікальних речей.</li>
+            <li><span class="highlight">Galeries Lafayette</span> — величезний торговий центр для шопінгу, включаючи французькі бренди.</li>
+            <li><span class="highlight">Saint-Germain-des-Prés</span> — ідеальне місце для покупок вин та одягу.</li>
+            <li><span class="highlight">Montmartre</span> — для сувенірів, мистецьких творів та антикваріату.</li>
+        </ul>
+<img src="https://paradis.voyage/wp-content/uploads/2023/02/da3302dfd98ea2677903824f24841ab3.jpg" alt="Шопінг" width="600" height="300" >
+    </section>
+
+    <section>
+        <h2 class="section-title">7. Найкращі місця для їжі в Парижі</h2>
+        <p>Ось список найпопулярніших закладів у Парижі, які точно варто відвідати:</p>
+        <ul>
+            <li>As du Fallafel</strong> (Le Marais) — легендарний фалафель.</li>
+            <li>La Maison Rose</strong> (Montmartre) — ресторан із французькою кухнею.</li>
+            <li>Café de Flore</strong> (Saint-Germain-des-Prés) — культове кафе з історією.</li>
+            <li>Les Deux Magots</strong> (Saint-Germain-des-Prés) — ще одне знакове кафе.</li>
+            <li>Au P&#39;tit Grec</strong> (Латинський квартал) — найкращі крепи у місті.</li>
+            <li>Le Baratin</strong> (Belleville) — улюблений ресторан місцевих.</li>
+            <li>Berthillon</strong> (Острів Сіте) — знамените морозиво.</li>
+            <li>58 Tour Eiffel</strong> (Ейфелева вежа) — ресторан із видом на Париж.</li>
+            <li>Du Pain et des Idées</strong> — пекарня з найкращими круасанами.</li>
+            <li>Poilâne</strong> — знаменита буланжерія.</li>
+            <li>Angelina</strong> — кафе зі знаменитим гарячим шоколадом.</li>
+            <li>Le Procope</strong> — найстаріший ресторан Парижа.
+            <li>Epicure</strong> (Le Bristol) — ресторан із 3 зірками Мішлен.</li>
+            <li>Septime</strong> — сучасна французька кухня.</li>
+            <li>Pierre Hermé</strong> — легендарна кондитерська.</li>
+        </ul>
+<img src="https://ggtravel.com.ua/wp-content/uploads/b126cd537eefd21d84a6efc72f66816e.jpg" alt="Їжа" width="600" height="300">
+    </section>
+
+     <section>
+        <h2 class="section-title">8. Найестетичніші вулички Парижа</h2>
+        <p>Якщо шукаєте чарівні місця для фото чи прогулянок, зверніть увагу на ці вулиці:</p>
+        <ul>
+            <li>Rue Crémieux</strong> — барвиста вуличка з різнокольоровими будинками.</li>
+            <li>Rue Cler</strong> — типова французька вулиця з ринками та кафе.</li>
+            <li>Rue des Rosiers</strong> (Le Marais) — історична єврейська вуличка з безліччю цікавих закладів.</li>
+            <li>Passage des Panoramas</strong> — одна з найстаріших критих галерей Парижа.</li>
+            <li>Rue de l’Abreuvoir</strong> (Montmartre) — мальовнича та затишна.</li>
+            <li>Avenue de Camoens</strong> — приховане місце з видом на Ейфелеву вежу.</li>
+        </ul>
+<img src="https://croissantsandcafes.com/wp-content/uploads/2024/02/rue-cremieux--scaled.jpg" alt="Вулички" width="600" height="300">
+    </section>
+
+    <section>
+        <h2 class="section-title">9. Місця, які рекомендують парижани</h2>
+        <p>Ось кілька локацій, які часто згадують у французьких блогах і які люблять місцеві:</p>
+        <ul>
+            <li>Parc des Buttes-Chaumont</strong> — чудовий парк із озером і видом на Париж.</li>
+            <li>Marché d’Aligre</strong> — один із найкращих ринків зі свіжими продуктами.</li>
+            <li>Canal Saint-Martin</strong> — популярне місце для прогулянок і пікніків.</li>
+            <li>La Recyclerie</strong> — затишне кафе на місці старої залізничної станції.</li>
+            <li>Le Pavillon des Canaux</strong> — креативний простір і кафе біля каналу.</li>
+            <li>Musée de la Chasse et de la Nature</strong> — унікальний музей природи та мисливства.</li>
+            <li>Rosa Bonheur</strong> (Parc des Buttes-Chaumont) — бар, де часто збираються місцеві.</li>
+        </ul>
+    </section>
+<!-- Карта -->
+    <section>
+        <div id="map" class="map-container"></div>
+    </section>
+
+ <footer>
+    <p style="color: white;">© 2024. Гід по Парижу створено для незабутньої подорожі!</p>
+</footer>
+
+    <script>
+        function initMap() {
+            const map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: 48.8566, lng: 2.3522 }, // Париж
+                zoom: 12,
+            });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARNNMm6QrOCMye3WM0VM2IAxij1BWcDC0&callback=initMap" async defer></script>
+</body>
+</html>
+
